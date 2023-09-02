@@ -1,0 +1,99 @@
+/* .App {
+  background: black;
+  color: white;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.option-btn {
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+
+.option-btn:hover {
+  background-color: transparent;
+  color: black;
+  transition: 0.3s;
+}
+
+.resultCard {
+  box-shadow: 0 0 30px rgb(196, 194, 194);
+  width: 22rem;
+}
+
+.pageDesign {
+  background: #5352ed;
+}
+
+.questionNo {
+  margin-left: 60px;
+  letter-spacing: 1.5px;
+}
+
+.questionBox {
+  background-color: #5352ed;
+  width: 70%;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.option-btn {
+  background: #f1f2f6;
+  width: 32rem;
+  padding: 2.5rem 0rem;
+  border-radius: 20px;
+}
+
+.option-btn:hover {
+  background: #f1f2f6;
+}
+
+.checked {
+  background-color: #5352ed;
+  color: white;
+}
+
+#next-btn {
+  background-color: #5352ed;
+  font-size: 1.3rem;
+  padding: 1.3rem 0rem;
+  color: white;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .questionNo {
+    margin-left: 10px;
+  }
+
+  .questionBox {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .option-btn {
+    width: 15rem;
+    padding: 1.5rem 1rem;
+  }
+
+  #next-btn {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .questionBox {
+    width: 70%;
+    padding: 1.5rem;
+  }
+  .option-btn {
+    width: 23rem;
+    padding: 1rem 1rem;
+  }
+}

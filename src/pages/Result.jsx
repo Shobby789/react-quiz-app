@@ -14,15 +14,15 @@ export default function Result({ totalScore, userScore, tryAgain }) {
           </Card.Text>
           <Button
             variant="primary"
-            size="sm"
+            // size="sm"
             className="mx-1"
             onClick={tryAgain}
           >
-            Try Again
+            Play Again
           </Button>
           <Button
             variant="primary"
-            size="sm"
+            // size="sm"
             className="mx-1"
             onClick={tryAgain}
           >

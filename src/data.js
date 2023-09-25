@@ -73,41 +73,41 @@ export const questions = [
     ],
     right_answer: 3,
   },
-  {
-    id: 6,
-    question: "Choose the correct HTML element to define important text",
-    options: ["<strong>", "<i>", "<important>", "<b>"],
-    right_answer: 1,
-  },
-  {
-    id: 7,
-    question: "Choose the correct HTML element to define emphasized text",
-    options: ["<italic>", "<i>", "<em>"],
-    right_answer: 3,
-  },
-  {
-    id: 8,
-    question: "How can you open a link in a new tab/browser window?",
-    options: [
-      "<a href='url' new>",
-      "<a href='url' target='new'>",
-      "<a href='url' target='_blank'>",
-    ],
-    right_answer: 3,
-  },
-  {
-    id: 9,
-    question:
-      "Inline elements are normally displayed without starting a new line.",
-    options: ["true", "false"],
-    right_answer: 1,
-  },
-  {
-    id: 10,
-    question: "How can you make a numbered list?",
-    options: ["<dl>", "<ol>", "<ul>", "<list>"],
-    right_answer: 2,
-  },
+  // {
+  //   id: 6,
+  //   question: "Choose the correct HTML element to define important text",
+  //   options: ["<strong>", "<i>", "<important>", "<b>"],
+  //   right_answer: 1,
+  // },
+  // {
+  //   id: 7,
+  //   question: "Choose the correct HTML element to define emphasized text",
+  //   options: ["<italic>", "<i>", "<em>"],
+  //   right_answer: 3,
+  // },
+  // {
+  //   id: 8,
+  //   question: "How can you open a link in a new tab/browser window?",
+  //   options: [
+  //     "<a href='url' new>",
+  //     "<a href='url' target='new'>",
+  //     "<a href='url' target='_blank'>",
+  //   ],
+  //   right_answer: 3,
+  // },
+  // {
+  //   id: 9,
+  //   question:
+  //     "Inline elements are normally displayed without starting a new line.",
+  //   options: ["true", "false"],
+  //   right_answer: 1,
+  // },
+  // {
+  //   id: 10,
+  //   question: "How can you make a numbered list?",
+  //   options: ["<dl>", "<ol>", "<ul>", "<list>"],
+  //   right_answer: 2,
+  // },
 ];
 
 export const CSSQuestions = [
